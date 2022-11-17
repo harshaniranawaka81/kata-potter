@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Kata_Potter</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Potter-BLL\Potter-BLL.csproj" />
+    <ProjectReference Include="..\Potter-DAL\Potter-DAL.csproj" />
+    <ProjectReference Include="..\Potter-Domain\Potter-Domain.csproj" />
+  </ItemGroup>
+
+</Project>
